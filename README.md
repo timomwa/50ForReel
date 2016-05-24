@@ -20,7 +20,7 @@ This involves;
 - Multiple branch management - One system, multiple **licensed vendors** - Basically a SAS model.
 - Content streaming / preview (Video, Audio, Visual arts)
 - Bussiness Intelligence / Reporting - Analyse distribution of content
-- Location based content owners and **licensed vendors**
+- Location based **content owners** and **licensed vendors**
 - Notifications and alerts for both vendor and customer
 - API to enable multiple platform integration. Including but not limited to Smart phones (Android, iOS, Symbian / Windows Phone, Ubuntu Mobile)
 
