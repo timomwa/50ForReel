@@ -1,3 +1,8 @@
+#50 For Reel Vision
+Help content owners and vendors efficiently monetize their content through existing digital platforms. 
+This involves; 
+- "cutting the middle man" completely and giving content owners and vendors a new channel where they can sell their content.
+- Bridging the gap between supplier and consumer  - producers and vendors of content can reach their intended customers or audiences in real time as well as monetize in real time.
 # 50ForReel
 "50 For reel" is an open source management information system for digital content vendors.
 "content vendors" here including digital content owners.
