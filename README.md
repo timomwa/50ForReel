@@ -1,8 +1,11 @@
 # 50ForReel
-"50 For reel" is an open source management information system for digital content vendors.
-"content vendors" here including digital content owners.
-Content vendors must own or be licensed to sell content before using this platform.
-"50 For Reel" developers will not accept any liability as a result of transacting with "50 For Reel".
+
+"50 For reel" is a media directory offered as a service to digital content owners and licensed vendors.
+Content owners and licensed vendors can set up "media stores" through which they can reach their subscribers.
+Subscribers can purchase content from the "media stores" and optionally pay via available payment platforms (VISA, Mastercard, Mobile money - M-PESA, Airtel Money, YuCash, Orange Money, Pesa Pal etc).
+
+Subscribers can get information on where to purchase content in case digital / downloadable formats are unavailable on the platform.
+Content owners can upload or share links to previews of their works. Subscribers can get alerts of these previews.
 
 
 #50 For Reel Vision
