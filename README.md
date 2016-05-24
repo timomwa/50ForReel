@@ -1,2 +1,4 @@
 # 50ForReel
-50 For real is an open source project aimed to help small businesses sell digital content.
+"50 For reel" is an open source management information system for content vendors.
+
+#Key features
