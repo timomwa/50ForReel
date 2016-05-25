@@ -5,9 +5,17 @@ archivesBaseName = gradle.theName
 group = gradle.theGroup
 
 repositories { mavenCentral() }
-
+task copyToLib(type: Copy) {
+    into "$buildDir/output/libs"
+    from configurations.runtime
+}
 dependencies {
-	compile group: 'javax', name: 'javaee-api', version: '6.0'
+	earlib group: 'org.jasypt', name: 'jasypt-hibernate4', version: '1.9.0'
     deploy project(':ejb')
     deploy project(path:':web', configuration:'archives')
+    compile group: 'org.jasypt', name: 'jasypt-hibernate4', version: '1.9.0'
+}
+
+ear{
+	libDirName 'APP-INF/lib'
 }

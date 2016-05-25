@@ -17,4 +17,5 @@
     <ejb>50forreel.jar</ejb>
   </module>
   <library-directory>APP-INF/lib</library-directory>
+ 
 </application>
