@@ -1,0 +1,13 @@
+apply plugin: 'ear'
+apply plugin: 'war'
+
+archivesBaseName = gradle.theName
+group = gradle.theGroup
+
+repositories { mavenCentral() }
+
+dependencies {
+	compile group: 'javax', name: 'javaee-api', version: '6.0'
+    deploy project(':ejb')
+    deploy project(path:':web', configuration:'archives')
+}

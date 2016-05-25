@@ -1,0 +1,13 @@
+apply plugin: 'war'
+
+archivesBaseName = gradle.theName
+group = gradle.theGroup
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	providedCompile 'javax.servlet:javax.servlet-api:3.0.1'
+	compile project(':ejb')	
+}

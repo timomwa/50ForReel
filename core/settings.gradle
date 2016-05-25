@@ -1,0 +1,5 @@
+gradle.ext.theName = '50forreel'
+gradle.ext.theGroup = 'forreal'
+gradle.ext.theVersion = 1.0
+
+include ':ejb',':web'

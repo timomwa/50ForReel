@@ -39,7 +39,7 @@ Have the following installed on your machine
 Navigate to the directory named **BACKEND_API** and run 
 
 ```
-gradle build
+gradle clean ear
 ```
 
 
