@@ -36,7 +36,7 @@ Have the following installed on your machine
 - Gradle 2.3 (instructions to install gradle [Here][1] )
 - An internet connection to be able to download all dependencies.
 
-Navigate to the directory named **BACKEND_API** and run 
+Navigate to the directory named **core** and run 
 
 ```
 gradle clean ear
