@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ear-subdeployments-isolated>true</ear-subdeployments-isolated>
+	
+	<deployment>
+
+		<exclusions>
+
+			<module name="org.hibernate" />
+			<module name="org.hibernate.id" />
+			<module name="org.hibernate.*" />
+			<module name="javassist.*" />
+			<module name="org.jboss.as.jpa" />
+			<module name="org.jboss.as.jpa.hibernate" />
+			<module name="javax.persistence.api" />
+			<module name="javax.persistence" />
+			<module name="org.hibernate.validator" />
+			<module name="org.antlr" />
+			<module name="asm.asm" />
+			<!--module name="org.dom4j" /-->
+
+
+			<module name="javax.faces.api" slot="main" />
+			<module name="com.sun.jsf-impl" slot="main" />
+
+			<module name="org.jboss.weld" />
+
+		</exclusions>
+		<local-last value="false" />
+	</deployment>
+
+</jboss-deployment-structure>

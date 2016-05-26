@@ -32,10 +32,13 @@ public class CreditCardInformation extends AbstractEntity {
 	 */
 	private static final long serialVersionUID = 1900065435574809362L;
 	
+	
 	@Type(type="encryptedString")
 	@Column(name="cardnumber")
 	private String cardnumber;
 
+	
+	
 	public String getCardnumber() {
 		return cardnumber;
 	}

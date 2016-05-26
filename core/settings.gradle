@@ -1,5 +1,9 @@
+include ':ejb',':web'
+//Edit this to point to where your javac is.
+gradle.ext.javacPath = 'C:/Program Files/Java/jdk1.7.0_67/bin/javac'
+
 gradle.ext.theName = '50forreel'
 gradle.ext.theGroup = 'forreal'
 gradle.ext.theVersion = 1.0
 
-include ':ejb',':web'
+

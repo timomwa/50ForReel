@@ -7,10 +7,19 @@ http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<jta-data-source>java:/forreelDS</jta-data-source>
 		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		<!--mapping-file>META-INF/orm.xml</mapping-file-->
 		<properties>
 			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.id.new_generator_mappings" value="false" />
 			<property name="encryptorRegisteredName" value="strongHibernateEncryptor"/>
+			<property name="jboss.as.jpa.providerModule" value="application" />
+			<!--property name="jboss.as.jpa.managed" value="true"/-->
+			
+			
+			<!--property name="jboss.as.jpa.providerModule" value="deployment.hibernate3-bundled" /-->
+			
 		</properties>
 		
 	</persistence-unit>
+	
 </persistence>

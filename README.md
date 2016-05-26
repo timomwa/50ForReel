@@ -33,7 +33,9 @@ This involves;
 Have the following installed on your machine
 
 - JDK version 7
+- Jboss 7 AS
 - Gradle 2.3 (instructions to install gradle [Here][1] )
+- Optionally specify javac location in "core/settings.gradle" the variable name is gradle.ext.javacPath
 - An internet connection to be able to download all dependencies.
 
 Navigate to the directory named **core** and run 
